@@ -38,7 +38,7 @@ try {
 
         $getfield = $getfield + [
                 'q'     => 'to:' . $_POST['user'],
-                'until' => '2015-12-12'
+//                'until' => '2015-12-12'           // will not work https://twittercommunity.com/t/how-to-get-tweets-for-specific-date-duration/14775/4
             ];
 
         $twitter = new TwitterAPIExchange($settings);
