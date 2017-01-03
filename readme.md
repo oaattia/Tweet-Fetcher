@@ -10,11 +10,12 @@ This is an implementation for getting tweets through twitter api, so we search f
 
 then add the twitter api credentials
 
+```
 OAUTH_ACCESS_TOKEN=
 OAUTH_ACCESS_TOEKN_SECRET=
 CONSUMER_KEY=
 CONSUMER_SECRET=
-
+```
 
 Usage Example
 ---------------
@@ -25,5 +26,5 @@ Open `index.php` in browser and type the search keyword
 Screenshot
 ----------------------
 
-![Screenshot](https://github.com/oaattia/tweets-fetcher/raw/master/screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/oaattia/Tweet-Fetcher/master/screenshot.png)
 
